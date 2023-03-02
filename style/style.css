@@ -45,9 +45,49 @@ header{
     line-height: 26px;
     letter-spacing: 0.1em;
     color: #000000;
+    text-transform: uppercase;
 
 }
 .menu-link:hover{
     color: #34547A;
     font-weight: 500;
 }
+.header-bottom{
+    display: flex;
+    align-items: center;
+    margin-top:140px;
+    justify-content: flex-end;
+    padding-bottom: 146px;
+}
+.bottom-title{
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 164.6%;
+    color: #000000;
+    padding-bottom: 40px;
+}
+.bottom-text{
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 162.5%;
+    color: #727272;
+    max-width: 540px;
+    padding-bottom: 60px;
+}
+button{
+    border:none;
+    background: #34547A;
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 162.5%;
+    letter-spacing: 0.1em;
+    color: #FFFFFF;
+    padding: 25px 41px;
+}
+.bottom-desc{
+    margin-left: 131px;
+}
+
