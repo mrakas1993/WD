@@ -86,8 +86,86 @@ button{
     letter-spacing: 0.1em;
     color: #FFFFFF;
     padding: 25px 41px;
+    cursor: pointer;
 }
 .bottom-desc{
     margin-left: 131px;
 }
-
+.me{
+    padding-top: 119px;
+    padding-bottom: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.me-title{
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 119%;
+    text-align: center;
+    color: #000000;
+}
+.me-text{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 163%;
+    text-align: center;
+    color: #727272;
+    max-width: 540px;
+    margin-top: 50px;
+}
+.achievements{
+    background: #34547A;
+    padding: 100px 0;
+}
+.achievements-box{
+    display: flex;
+    justify-content: space-between;
+}
+.box-item{
+    display: flex;
+}
+.box-desc{
+    margin-left: 20px;
+}
+.box-title{
+    font-weight: 500;
+    font-size: 21px;
+    line-height: 119%;
+    color: #FFFFFF;
+    margin-top: 3px;
+}
+.box-text{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 163%;
+    color: #FFFFFF;
+}
+footer{
+    background: #34547A;
+    padding: 50px 0;
+}
+.footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer-left>a{
+    font-weight: 500;
+    font-size: 21px;
+    line-height: 119%;
+    color: #FFFFFF;
+}
+.footer-left>p{
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 162%;
+    color: #FFFFFF;
+    padding-top: 20px;
+}
+.footer-right>a{
+    margin-right: 22px;
+}
+.footer-right>a:last-child{
+    margin-right: 0;
+}
